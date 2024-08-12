@@ -71,6 +71,11 @@ header {
     text-decoration: none;
 }
 
+.bars-icon{
+    color: #FFFFFF;
+    display: none;
+}
+
 .about {
     padding-right: 20px;
 }
