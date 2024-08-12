@@ -280,3 +280,56 @@ header {
     padding: 0px 20px;
     line-height: 17px;
 }
+
+
+
+/* Run section css starts here */
+.run-section-container{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #222222;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 100px;
+}
+.run-section-texts{
+    border: 1px solid green;
+    width: 40%;
+    padding: 40px 50px;
+}
+.run-section-texts h1{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.run-section-texts p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 34px;
+    line-height: 22px;
+}
+.run-section-texts button{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E6533C;
+    padding: 14px 65px;
+    border: none;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.run-section-img{
+    border: 1px solid aqua;
+    width: 35%;
+    padding: 30px;
+}
+.run-section-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
