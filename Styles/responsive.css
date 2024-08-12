@@ -37,12 +37,12 @@
     }
     .fill-color-btn {
         font-size: 0.8rem;
-        padding: 14px 38px;
+        padding: 14px 36px;
     }
     
     .stroke-color-btn {
         font-size: 0.8rem;
-        padding: 14px 38px;;
+        padding: 14px 36px;
     }
     .header-banner-right-side-contents {
         width: 100%;
@@ -56,7 +56,7 @@
         font-size: 1.7rem;
         position: absolute;
         top: 40px;
-        right: 20px;
+        right: 12px;
     }
     .first-box p {
         color: rgba(255, 255, 255, 0.65);
