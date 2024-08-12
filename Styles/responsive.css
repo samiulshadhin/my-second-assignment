@@ -1,16 +1,19 @@
 @media screen and (max-width: 576px) {
 
     /* Header Navbar Section CSS Starts here */
-    .header-navbar-container{
+    .header-navbar-container {
         width: 85%;
     }
-    .navbar-menu-container{
+
+    .navbar-menu-container {
         display: none;
     }
-    .bars-icon{
+
+    .bars-icon {
         color: #FFFFFF;
         display: inline;
         cursor: pointer;
+        font-size: 22px;
     }
 
 
@@ -19,55 +22,92 @@
         width: 85%;
         display: flex;
         flex-direction: column;
+        margin-bottom: 50px;
     }
+
     .header-banner-left-side-contents {
         width: 100%;
         margin-bottom: 40px;
     }
+
     .header-banner-left-side-contents h1 {
         font-size: 2rem;
         padding-right: 90px;
     }
+
     .header-banner-left-side-contents span {
         font-size: 4rem;
     }
-    .header-left-side-btn{
+
+    .header-left-side-btn {
         display: flex;
         justify-content: space-between;
     }
+
     .fill-color-btn {
         font-size: 0.8rem;
         padding: 14px 36px;
     }
-    
+
     .stroke-color-btn {
         font-size: 0.8rem;
         padding: 14px 36px;
     }
+
     .header-banner-right-side-contents {
         width: 100%;
         position: relative;
     }
+
     .header-banner-right-img {
         width: 100%;
         display: block;
     }
+
     .first-box {
         font-size: 1.7rem;
         position: absolute;
         top: 40px;
         right: 12px;
     }
+
     .first-box p {
         color: rgba(255, 255, 255, 0.65);
         font-size: 0.5rem;
         font-weight: 400;
     }
+
     .second-box {
         padding: 13px 18px;
         position: absolute;
         bottom: 250px;
         left: 10px;
     }
-    
+
+
+
+
+    /* Habit section css starts here */
+    .habit-section-container {
+        width: 85%;
+        margin-bottom: 50px;
+    }
+
+    .habit-section-texts {
+        padding: 0px;
+    }
+    .habit-section-texts h1{
+        font-size: 2rem;
+    }
+    .four-things-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .four-things-content h5{
+        margin-top: 20px;
+    }
+    .four-things-content p{ 
+        padding: 0px 70px;
+        margin-bottom: 40px;
+    }
 }
