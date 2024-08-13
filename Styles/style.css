@@ -70,7 +70,7 @@ header {
     text-decoration: none;
 }
 
-.bars-icon{
+.bars-icon {
     color: #FFFFFF;
     display: none;
 }
@@ -227,23 +227,26 @@ header {
 
 
 /* Habit section css starts here */
-.habit-section-container{
+.habit-section-container {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 100px;
 }
-.habit-section-texts{
+
+.habit-section-texts {
     padding: 0px 180px;
     margin-bottom: 55px;
 }
-.habit-section-texts h1{
+
+.habit-section-texts h1 {
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
     margin-bottom: 13px;
 }
-.habit-section-texts p{
+
+.habit-section-texts p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
@@ -251,12 +254,13 @@ header {
     line-height: 20px;
 }
 
-.four-things-container{
+.four-things-container {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
 }
-.four-things-content img{
+
+.four-things-content img {
     border: 4px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     margin: 0 auto;
@@ -264,14 +268,16 @@ header {
     height: 160px;
     display: block;
 }
-.four-things-content h5{
+
+.four-things-content h5 {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
     margin-top: 30px;
 }
-.four-things-content p{
+
+.four-things-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.75rem;
     font-weight: 400;
@@ -284,7 +290,7 @@ header {
 
 
 /* Run section css starts here */
-.run-section-container{
+.run-section-container {
     display: flex;
     width: 75%;
     justify-content: space-between;
@@ -294,24 +300,28 @@ header {
     border-radius: 18px;
     margin-bottom: 100px;
 }
-.run-section-texts{
+
+.run-section-texts {
     width: 40%;
     padding: 40px 50px;
 }
-.run-section-texts h1{
+
+.run-section-texts h1 {
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
-.run-section-texts p{
+
+.run-section-texts p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 34px;
     line-height: 22px;
 }
-.run-section-texts button{
+
+.run-section-texts button {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
@@ -322,70 +332,78 @@ header {
     cursor: pointer;
 }
 
-
-
-
-/* Image Container */
-.run-section-img{
-    width: 366px;
-    height: 312px;
+.run-section-img {
+    margin: 30px;
+    width: 274px;
+    border-radius: 18px;
+    height: 220px;
     padding: 30px;
     overflow: hidden;
+    position: relative;
 }
 
-/* Image */
-.run-section-img img{
-    width: 366px;
-    height: 312px;
-    object-fit: cover;
-    border-radius: 18px;
-    transform: scale(1);
+.run-section-img img {
+    position: absolute;
+    top: 30%;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    transform: scale(3);
+    object-fit: contain;
 }
 
 
 
 
 /* BMI section css starts here */
-.bmi-section-container{
+.bmi-section-container {
     margin-bottom: 85px;
 }
-.bmi-section-head{
+
+.bmi-section-head {
     width: 45%;
     margin: 0 auto;
 }
-.bmi-section-head h1{
+
+.bmi-section-head h1 {
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 13px;
 }
-.bmi-section-head p{
+
+.bmi-section-head p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 85px;
     line-height: 22px;
 }
-.bmi-content-parent{
+
+.bmi-content-parent {
     background-color: #222222;
 }
-.bmi-section-content{
+
+.bmi-section-content {
     width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 50px 0px;
 }
-.bmi-left-side-content{
+
+.bmi-left-side-content {
     width: 35%;
 }
-.bmi-left-side-content h2{
+
+.bmi-left-side-content h2 {
     color: #FFFFFF;
     font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 45px;
 }
-th{
+
+th {
     border: 1.5px solid rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
     font-size: 0.9rem;
@@ -393,7 +411,8 @@ th{
     text-align: left;
     padding: 13px 20px;
 }
-td{
+
+td {
     border: 1.5px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
@@ -401,44 +420,52 @@ td{
     text-align: left;
     padding: 10px 20px;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-.bmi-right-side-content{
+
+.bmi-right-side-content {
     width: 55%;
 }
-.bmi-right-side-content h2{
+
+.bmi-right-side-content h2 {
     color: #FFFFFF;
     font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
-.bmi-right-side-content p{
+
+.bmi-right-side-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 33px;
     line-height: 22px;
 }
-.form-container{
+
+.form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-bottom: 29px;
 }
-.form-container input{
+
+.form-container input {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
     padding: 13px 20px;
     color: rgba(255, 255, 255, 0.6);
 }
-::placeholder{
+
+::placeholder {
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.5px;
     font-size: 0.86rem;
 }
-.gender-selection{
+
+.gender-selection {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
@@ -447,7 +474,8 @@ table{
     font-size: 0.9rem;
     cursor: pointer;
 }
-.activity-factor-selection{
+
+.activity-factor-selection {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
@@ -458,10 +486,12 @@ table{
     font-size: 0.9rem;
     cursor: pointer;
 }
+
 option {
     background-color: rgb(49, 49, 49);
 }
-.calculate-btn{
+
+.calculate-btn {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
