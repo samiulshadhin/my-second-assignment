@@ -139,18 +139,12 @@
         padding: 16px 65px;
         width: 100%;
     }
-
     .run-section-img {
-        width: 244px;
-        height: 150px;
+        width: 70%;
         margin-top: 20px;
     }
 
-    .run-section-img img {
-        top: 0%;
-        left: -15%;
-        transform: scale(1.5);
-    }
+
 
 
     /* BMI section css starts here */
