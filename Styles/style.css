@@ -21,7 +21,7 @@ Body {
 }
 
 header {
-    background: linear-gradient(rgb(15, 14, 14), rgba(119, 119, 119, 0.295), rgb(15, 14, 14));
+    background: linear-gradient(rgb(15, 14, 14), rgba(119, 119, 119, 0.295), rgb(3, 3, 3));
 }
 
 
@@ -295,7 +295,6 @@ header {
     margin-bottom: 100px;
 }
 .run-section-texts{
-    border: 1px solid green;
     width: 40%;
     padding: 40px 50px;
 }
@@ -323,7 +322,6 @@ header {
     cursor: pointer;
 }
 .run-section-img{
-    border: 1px solid aqua;
     width: 35%;
     padding: 30px;
 }

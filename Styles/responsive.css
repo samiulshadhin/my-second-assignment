@@ -90,7 +90,7 @@
     /* Habit section css starts here */
     .habit-section-container {
         width: 85%;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
     .habit-section-texts {
@@ -110,4 +110,34 @@
         padding: 0px 70px;
         margin-bottom: 40px;
     }
+
+
+    /* Run section css starts here */
+    .run-section-container{
+        flex-direction: column;
+        width: 85%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .run-section-texts{
+        width: 85%;
+        padding: 30px;
+    }
+    .run-section-texts p{
+        margin-bottom: 24px;
+        line-height: 20px;
+    }
+    .run-section-texts button{
+        font-size: 1.1rem;
+        padding: 16px 65px;
+        width: 100%;
+    }
+    .run-section-img{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        padding-top: 0px;
+    }
+
 }
