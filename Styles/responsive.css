@@ -260,4 +260,34 @@
     .box2 {
        margin-top: 15px;
     }
+
+
+
+    /* Footer section starts here */
+    .footer-section-container{
+        padding-top: 55px;
+    }
+    .footer-contents-parent{
+        width: 85%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-left-side-content{
+        width: 100%;
+    }
+    .footer-left-side-content h1{
+        margin-bottom: 15px;
+    }
+    .footer-left-side-content p{
+        margin-bottom: 20px;
+    }
+
+    .footer-middle-content{
+        width: 100%;
+    }
+    
+    .footer-right-side-content{
+        width: 100%;
+        padding-bottom: 20px;
+    }
 }
