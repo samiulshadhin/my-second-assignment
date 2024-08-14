@@ -150,7 +150,7 @@
     /* BMI section css starts here */
     .bmi-section-container {
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
 
     .bmi-section-head {
@@ -210,5 +210,32 @@
     }
     .calculate-btn {
         margin-bottom: 45px;
+    }
+
+
+
+    /* Team section css starts here */
+    .team-section-container{
+        margin-bottom: 60px;
+    }
+    .team-section-head{
+        width: 85%;
+    }
+    .team-section-head h1 {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+    .team-section-head p {
+        margin-bottom: 40px;
+    }
+    .team-member-info-container{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .not-for-mobile{
+        display: none;
+    }
+    .team-member-info img{
+        filter: brightness(85%);
     }
 }
