@@ -238,4 +238,26 @@
     .team-member-info img{
         filter: brightness(85%);
     }
+
+
+
+    /* Price section css starts here (Challenge Part) */
+    .price-section-container {
+        margin-bottom: 80px;
+    }
+    .price-section-head {
+        width: 85%;
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+    .price-section-head h2 {
+        font-size: 2rem;
+    }
+    .price-boxes-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box2 {
+       margin-top: 15px;
+    }
 }
